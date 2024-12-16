@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="worst radius <= 16.795\ngini = 0.468\nsamples = 569\nvalue = [212, 357]\nclass = benign", fillcolor="#afd7f4"] ;
+1 [label="gini = 0.159\nsamples = 379\nvalue = [33, 346]\nclass = benign", fillcolor="#4ca6e7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.109\nsamples = 190\nvalue = [179, 11]\nclass = malignant", fillcolor="#e78945"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
