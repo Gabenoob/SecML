@@ -257,4 +257,4 @@ if __name__ == "__main__":
     result = predict(parameters, x_test, y_test)
 
     # 分类结果可视化
-    # result_visualization(x_test, y_test, result)
+    result_visualization(x_test, y_test, result)
