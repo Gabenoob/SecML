@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
     # 创建模型并训练
     # max_depth=1 令树的最大深度为1，可自行修改，比较异同
-    clf = DecisionTreeClassifier(criterion="gini", max_depth=1)
+    clf = DecisionTreeClassifier(criterion="gini", max_depth=5)
     clf.fit(X, y)
 
     # 使用模型预测
